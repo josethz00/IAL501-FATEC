@@ -1,0 +1,15 @@
+funções recursivas gastam mais memória, por isso, é recomendado saber os 
+casos de uso corretamente. Ao fazer loops, você não precisa realizar interrupções 
+nas chamadas de funções, e consequentemente não precisa remontá-las.
+
+Devemos evitar recursão quando ela for Recursão de Cauda ou Recursão Redundante.
+
+Otimização - em casos de recursão de cauda devemos otimizá-la trocando por uma solução iterativa (loops)
+Memoização - em casos de recursão de degenerada, podemos usar uma memória para armazenar os resultados
+
+
+a linguagem C suporta mais ou menos 84000 chamadas recursivas (sem otimização)
+a linguagem Python suporta mais ou menos 2100 chamadas recursivas (sem otimização)
+Porém a linguagem C em seu compilador, já consegue otimizar automaticamente, passando de 
+uma função recursiva para iterativa, já em Python, o interpretador não tem essa capacidade,
+justamente por ser interpretada e ler o código linha a linha.
