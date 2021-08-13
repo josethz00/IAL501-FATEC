@@ -1,2 +1,2 @@
 # IAL501-FATEC
-Disciplina de IAL501
+Repositório com os códigos das aulas da disciplina de IAL501
